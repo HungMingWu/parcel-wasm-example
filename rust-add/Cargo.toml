@@ -1,0 +1,10 @@
+[package]
+name = "module"
+version = "0.1.0"
+authors = ["HungMingWu"]
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
