@@ -20,5 +20,5 @@ Build wasm from Rust
 
 ```
 $ cd rust_add
-$ build --target wasm32-unknown-unknown  --release
+$ cargo build --target wasm32-unknown-unknown  --release
 ```
